@@ -1,0 +1,8 @@
+<div [hidden]="!status">
+  <p>p1</p>
+</div>
+<div>
+  <p [hidden]="status">p2</p>
+</div>
+
+<button (click)="changeStatus(!status)">change</button>
